@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    background-color: rgb(21, 21, 128);
+}
+#game_head{
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+}
+#main_div{
+   
+    width: 515px;
+    height: 460px;
+    margin: 80px auto 0px auto;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+.green{
+    height: 190px;
+    width: 216px;
+    border-radius: 35px;
+    background-color: green;
+    border: 9px solid black;
+    cursor: pointer;
+}
+.red{
+    height: 190px;
+    width: 216px;
+    background-color: red;
+    border-radius: 35px;
+    border: 9px solid black;
+    cursor: pointer;
+}
+.blue{
+    height: 190px;
+    width: 216px;
+    background-color: rgb(72, 88, 156);
+    border-radius: 35px;
+    border: 9px solid black;
+    cursor: pointer;
+}
+.yellow{
+    height: 190px;
+    width: 216px;
+    background-color: yellow;
+    border-radius: 35px;
+    border: 9px solid black;
+    cursor: pointer;
+}
+#button_start{
+    margin :20px auto 0px auto;
+    padding: 0px 35px 0px 35px;
+    border-radius: 13px;
+    background: linear-gradient(rgb(162 162 189),rgb(55 55 92));
+    border-style: none;
+    box-shadow: 1px 0px 10px 3px rgb(15 15 33);
+    cursor: pointer;
+
+} 
+.start_para{
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
+.btn_click_animation{
+    background: linear-gradient(rgb(189 189 219),rgb(40 40 107));
+    margin :20px auto 0px auto;
+    padding: 0px 35px 0px 35px;
+    border-radius: 13px;
+    border-style: none;
+    box-shadow: 1px 0px 14px 5px rgb(15 15 33);
+    cursor: pointer;
+}
+.green1{
+    height: 190px;
+    width: 216px;
+    border-radius: 35px;
+    background-color: rgb(26, 156, 26);
+    border: 9px solid black;
+    box-shadow: 1px 0px 7px 10px #7373de;
+}
+.red1{
+    height: 190px;
+    width: 216px;
+    background-color: rgb(236, 56, 56);
+    border-radius: 35px;
+    border: 9px solid black;
+    box-shadow: 1px 0px 7px 10px #7373de;
+}
+.blue1{
+    height: 190px;
+    width: 216px;
+    background-color: rgb(104, 114, 161);
+    border-radius: 35px;
+    border: 9px solid black;
+    box-shadow: 1px 0px 7px 10px #7373de;
+}
+.yellow1{
+    height: 190px;
+    width: 216px;
+    background-color: rgb(216, 216, 179);
+    border-radius: 35px;
+    border: 9px solid black;
+    box-shadow: 1px 0px 7px 10px #7373de;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>THE SIMON GAME</title>
+       <link rel="icon" href="simon.ico">
+       <link  rel="stylesheet" href="simon_game_css.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="game_head">CLICK ON START TO START THE GAME</h1>
+        <div id="main_div">
+            <div class="green" onclick="mouse_event_manual('green')">
+                
+            </div>
+            <div class="red" onclick="mouse_event_manual('red')">
+
+            </div>
+            <div class="blue" onclick="mouse_event_manual('blue')">
+
+            </div>
+            <div class="yellow" onclick="mouse_event_manual('yellow')">
+
+            </div>
+        </div>
+        <audio id="green" hidden>
+          <source type="audio/mp3" src="green.mp3">
+        </audio>
+        <audio id="red" hidden>
+          <source type="audio/mp3" src="red.mp3">
+        </audio>
+        <audio id="blue" hidden>
+          <source type="audio/mp3" src="yellow.mp3">
+        </audio>
+        <audio id="yellow" hidden>
+          <source type="audio/mp3" src="blue.mp3">
+        </audio>
+        <audio id="wrong" hidden>
+          <source type="audio/mp3" src="wrong.mp3">
+        </audio>
+        <button id="button_start" onclick="on_click_start()"><p class="start_para">start</p></button>
+    </body>
+    <script src="simon_game_js.js"></script>
+</html>
